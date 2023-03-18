@@ -1,6 +1,4 @@
-from typing import Optional
-
-def binary_search(array, item) -> Optional[int]:
+def binary_search(array, item):
     lower = 0
     higher = len(array) - 1
 
